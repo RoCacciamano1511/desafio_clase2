@@ -4,5 +4,28 @@
 }
 
 #nav{
-    background-color: burlywood;
+    background-color: rgb(252, 209, 153);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0.5rem 1rem;
+    box-shadow: 0 2px 4px rgb(119, 116, 116);
+}
+
+#nav ul{
+    display: flex;
+}
+
+#nav ul li{
+    margin-left: 20px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+#root{
+    display: flex;
+    flex-direction: column;
 }
